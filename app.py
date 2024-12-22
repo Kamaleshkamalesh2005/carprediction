@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 
 # Load Dataset
-cars_data = pd.read_csv('Cardetails.csv')
+cars_data = pd.read_csv('Cardetails (2).csv')
 
 # Preprocessing
 def get_brand_name(car_name):
